@@ -1,1 +1,3 @@
 node_modules
+playgrounds/react/dist
+playgrounds/react/.cache
