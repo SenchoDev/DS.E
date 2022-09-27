@@ -60,13 +60,6 @@ $blue-light: #b4d2f4;
 $playfair: "Playfair", serif; /*1*/
 $raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif; /*2*/
 
-/* Font Families */
-$fs-xs: 0.75rem; //12px
-$fs-sm: 0.875rem; // 14px;
-$fs-base: 1rem; //16px;
-$fs-lg: 1.125rem; //18px;
-$fs-xl: 1.5rem; //24px;
-
 /* Heading font sizes */
 $h-1: 1.375rem; // 22px
 $h-2: 1.375rem; // 22px
@@ -125,3 +118,18 @@ $spacing: (
   xxxl: 6rem,
   //96px;
 ) !default;
+
+/* Font Families */
+$fs-xs: 0.75rem; //12px
+$fs-sm: 0.875rem; // 14px;
+$fs-base: 1rem; //16px;
+$fs-lg: 1.125rem; //18px;
+$fs-xl: 1.5rem; //24px;
+
+$fs: (
+  xs:  0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.5rem,
+)

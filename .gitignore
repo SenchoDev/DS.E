@@ -1,3 +1,6 @@
 node_modules
-playgrounds/react/dist
+packages/react/lib
+packages/scss/lib
 playgrounds/react/.cache
+playgrounds/react/dist
+
