@@ -6,6 +6,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "files": [
+    "lib",
+    "src"
+  ],
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
@@ -33,5 +37,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -3,7 +3,7 @@ const fontSizes = {
   sm: 'sm',
   base: 'base',
   lg: 'lg',
-  xl: 'xl'
+  xl: 'xl',
 }
 
 export default Object.freeze(fontSizes)

@@ -1,11 +1,13 @@
 import Ts from 'rollup-plugin-typescript2'
+import postcss from 'rollup-plugin-postcss'
 
 export default {
   input: [
     'src/index.ts',
     'src/atoms/Color/index.ts',
     'src/atoms/Text/index.ts',
-    'src/atoms/Margin/index.ts'
+    'src/atoms/Margin/index.ts',
+    'src/molecules/Select/index.ts'
   ],
   output: {
     dir: 'lib',
@@ -14,5 +16,10 @@ export default {
   },
   plugins: [Ts()],
   preserveModules: true,
-  external: ['react', '@ds.e/foundation']
+  external: ['react', '@ds.e/foundation'],
+  // plugins: [
+  //   postcss({
+  //     plugins: []
+  //   })
+  // ]
 }
